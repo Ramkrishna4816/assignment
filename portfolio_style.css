@@ -1,0 +1,153 @@
+
+.about-section {
+    padding: 60px 80px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+
+.highlight {
+    color: #2a9d8f;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #264653;
+    color: white;
+}
+
+.name {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.portfolio-section {
+    display: flex;
+    gap: 40px;
+    padding: 60px 80px;
+}
+
+.skills-box {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.skills-box h2 {
+    margin-bottom: 15px;
+}
+
+.skills-box ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.skills-box li {
+    margin-bottom: 10px;
+}
+
+
+.projects-box {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.projects-box h2 {
+    margin-bottom: 20px;
+}
+
+.project-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.project-title:hover {
+    color: #2a9d8f;
+}
+
+
+.footer {
+    margin-top: 40px;
+    padding: 50px 20px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #21867a;
+}
+
+
+@media (max-width: 768px) {
+    .portfolio-section {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+}
